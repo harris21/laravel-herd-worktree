@@ -43,11 +43,10 @@ It also handles cleanup and PR creation when you're done.
    git clone https://github.com/harris21/laravel-herd-worktree.git ~/.claude/plugins/laravel-herd-worktree
    ```
 
-2. Add to your Claude Code configuration:
+2. Register the marketplace and install the plugin:
    ```bash
-   claude plugins add ~/.claude/plugins/laravel-herd-worktree
+   claude plugin marketplace add ~/.claude/plugins/laravel-herd-worktree && claude plugin install laravel-herd-worktree@harrisrafto-laravel-tools
    ```
-
 ## Usage
 
 The skill is automatically invoked when you mention worktrees with Laravel Herd projects. Example prompts:
