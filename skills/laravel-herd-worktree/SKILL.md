@@ -2,6 +2,13 @@
 name: laravel-herd-worktree
 description: Use when setting up a Laravel worktree for local development with Laravel Herd, or when user asks to work on a feature branch in isolation
 license: MIT
+tags:
+  - laravel
+  - php
+  - herd
+  - worktree
+  - git
+  - development
 ---
 
 # Laravel Herd Worktree Setup
