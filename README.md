@@ -30,23 +30,15 @@ It also handles cleanup and PR creation when you're done.
 
 ## Installation
 
-### Via Claude Marketplace (Recommended)
+Clone this repository and register it with Claude Code:
 
 ```bash
-/plugin install laravel-herd-worktree@harrisrafto-laravel-tools
+git clone https://github.com/harris21/laravel-herd-worktree.git ~/.claude/plugins/laravel-herd-worktree
+claude plugins add ~/.claude/plugins/laravel-herd-worktree
 ```
 
-### Manual Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/harris21/laravel-herd-worktree.git ~/.claude/plugins/laravel-herd-worktree
-   ```
-
-2. Add to your Claude Code configuration:
-   ```bash
-   claude plugins add ~/.claude/plugins/laravel-herd-worktree
-   ```
+> **Note:** The `/plugin install` marketplace command is not currently available for this plugin.
+> Manual installation via `git clone` is the only supported method.
 
 ## Usage
 
